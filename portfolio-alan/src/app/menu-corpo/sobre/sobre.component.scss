@@ -1,0 +1,45 @@
+.espaco-todo {
+  margin: 0 auto;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+img {
+  width: 50%;
+  height: 100%;
+  margin-top: 0%;
+  margin-bottom: 10%;
+  float: right;
+  right: 1%;
+  margin-right: 16%;
+}
+
+#imagem-inversa{
+  width: 50%;
+  height: 100%;
+  margin-top: 0%;
+  margin-bottom: 10%;
+  float: left;
+  margin-left: 16%;
+}
+
+.div-direita {
+
+  top: 15%;
+  float: left;
+  width: 75%;
+  height: auto;
+  text-align: justify;
+  padding: 1%;
+  font-size: 200%;
+  color: #fff;
+  margin: auto;
+  background: rgba(108, 131, 117, 0.9);
+  border-radius: 3%;
+  position: absolute;
+  margin-left: 0%;
+  margin-right: 0%;
+}

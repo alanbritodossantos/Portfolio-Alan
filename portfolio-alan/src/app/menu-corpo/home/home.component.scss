@@ -1,0 +1,101 @@
+#section-inicio {
+  background: linear-gradient(93.13deg, #78837a 10%, #ffffff 50%);
+  display: relative;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.apresentacao {
+  display: relative;
+  flex-wrap: wrap;
+  justify-content: left;
+  text-align: center;
+  color: white;
+  width: 90%;
+  height: 90%;
+}
+
+.descricao {
+  font-size: 25px;
+  grid-area: descricao;
+}
+
+.meu-nome::after {
+  content: "|";
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca 0.7s infinite;
+  animation-duration: 0.7s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: pisca;
+}
+
+@keyframes pisca {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.link {
+  font-size: 25px;
+  width: 50%;
+  text-align: center;
+  padding: 12px 0;
+  transition: ease-in-out 0.3s;
+}
+
+.link:hover {
+  letter-spacing: 5px;
+  color: white;
+}
+
+.linkedin {
+  bottom: 0%;
+  width: 60%;
+  height: 20%;
+  background-color: #7a7574;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 62px;
+  position: relative;
+}
+
+.linkedin a {
+  width: 100%;
+  padding: 25px 0;
+  color: rgb(255, 253, 254);
+  text-decoration: none;
+}
+
+.imagem-direita {
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+
+img {
+  border-radius: 20%;
+  width: 60%;
+  height: 60%;
+  margin-top: 25%;
+  margin-left: 50%;
+}
+
+.resumo-left {
+  float: left;
+  width: 45%;
+  height: 100%;
+  margin-left: 10px;
+  position: relative;
+}

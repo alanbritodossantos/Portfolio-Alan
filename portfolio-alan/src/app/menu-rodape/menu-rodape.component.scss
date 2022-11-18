@@ -1,0 +1,50 @@
+.footer{
+  background-color: rgb(59, 64, 59);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8%;
+  text-align: center;
+
+}
+
+.footer-conteiner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contato-creditos {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  padding: 10px 0;
+}
+.icons {
+  display: flex;
+  gap: 25px;
+}
+
+img{
+  width: 90%;
+  height: 90%;
+}
+.links1 {
+  background-image: url(/portfolio-alan/src/assets/image-icones/icon-linkedin.png);
+}
+
+.links2 {
+  background-image: url(/portfolio-alan/src/assets/image-icones/icon-linkedin.png);
+}
+
+.links1, .links2 {
+  height: 52px;
+  width: 52px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 0.7s;
+}
